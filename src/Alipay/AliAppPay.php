@@ -19,9 +19,9 @@ class AliAppPay extends BasicAliPay
     /**
      * 发起支付
      * @param array $options
-     * @return mixed
+     * @return string
      */
-    public function apply(array $options): mixed
+    public function apply(array $options): string
     {
         $this->options->offsetSet('biz_content', json_encode($this->params->merge($options), JSON_UNESCAPED_UNICODE));
         $this->options->offsetSet('sign', $this->getAlipaySign());
