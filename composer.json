@@ -1,0 +1,28 @@
+{
+    "name": "ctexthuang/ali-sdk",
+    "description": "aliyun-s for php",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.3",
+        "phpunit/phpunit": "^9.5",
+        "ext-bcmath": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-openssl": "*",
+        "ext-simplexml": "*",
+        "ext-xml": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ctexthuang\\AliSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ctexthuang",
+            "email": "ctexthuang@qq.com"
+        }
+    ]
+}
